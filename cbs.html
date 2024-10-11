@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Certificate of Biblical Studies (C.B.S)</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      /* Custom styles for button animations */
+      .download-button:hover {
+        transform: scale(1.05);
+        transition: transform 0.3s;
+      }
+
+      .register-button {
+        position: relative;
+      }
+
+      .register-button:active {
+        background-color: #38a169; /* Darker green for active state */
+      }
+
+      .info-box {
+        background-color: #f0f4f8; /* Light gray background */
+        border: 2px solid #e2e8f0; /* Slightly darker border */
+        border-radius: 0.5rem; /* Rounded corners */
+        padding: 2rem; /* Increased padding */
+        margin-bottom: 1.5rem; /* Spacing between boxes */
+        cursor: pointer; /* Change cursor to pointer */
+      }
+    </style>
+  </head>
+  <body class="bg-white font-sans">
+    <div class="container mx-auto p-8">
+      <!-- Logo Section -->
+      <div class="flex justify-center mb-6">
+        <img src="logo.png" alt="Logo" class="h-32 w-auto" />
+      </div>
+
+      <!-- Main Heading -->
+      <h1 class="text-4xl font-bold text-black text-center mb-4">
+        Trivandrum Brethren Bible Training Institute
+      </h1>
+      <p class="text-center text-gray-600 text-sm mb-6 sm:text-base">
+        (A Ministry of Pullannivila Brethren Assembly, TVM)
+      </p>
+
+      <!-- Vision and Mission Boxes -->
+      <div class="flex flex-col sm:flex-row justify-between mb-6">
+        <div class="info-box w-full sm:w-1/2 text-center mb-4 sm:mb-0 mr-2">
+          <h3 class="text-2xl font-semibold text-blue-800 mb-2">OUR VISION</h3>
+          <p class="text-lg text-gray-700">
+            Equip Christian Disciples for Indian Evangelisation
+          </p>
+        </div>
+        <div class="info-box w-full sm:w-1/2 text-center">
+          <h3 class="text-2xl font-semibold text-blue-800 mb-2">OUR MISSION</h3>
+          <p class="text-lg text-gray-700">
+            Arm Committed Men of God with Knowledge and Skills to Efficiently
+            Proclaim Christ to their Hometowns
+          </p>
+        </div>
+      </div>
+
+      <p class="text-lg text-center text-gray-600 mb-4">
+        Registration Closes:
+        <span class="font-semibold text-red-600">November 22, 2024</span>
+      </p>
+
+      <p class="text-lg text-center text-gray-600 mb-4">
+        Duration: <span class="font-semibold">4 Months</span>
+      </p>
+      <p class="text-lg text-center text-gray-600 mb-4">
+        Starts: <span class="font-semibold">December 2, 2024</span>
+      </p>
+
+      <p class="text-lg text-center text-gray-600 mb-4">
+        For more details, please click the button below:
+      </p>
+      <div class="flex justify-center mb-6">
+        <a
+          href="https://youtu.be/UtIdVw5OR9k"
+          target="_blank"
+          class="bg-red-600 text-white font-semibold py-3 px-8 rounded-md border border-red-700 shadow-lg hover:bg-red-500 hover:shadow-xl transition duration-300"
+          >Watch Video</a
+        >
+      </div>
+
+      <div class="flex justify-center mb-6">
+        <a
+          href="https://drive.google.com/file/d/10SETUl4qq3X4mpoILz4nFG_XsO5FLmaS/view?usp=sharing"
+          target="_blank"
+          class="bg-gray-600 text-white font-semibold py-3 px-8 rounded-md border border-gray-700 shadow-lg download-button"
+          >View Brochure</a
+        >
+      </div>
+
+      <div class="flex justify-center mb-6">
+        <a
+          href="https://forms.gle/FyUEKFSCsMCUdX2H7"
+          target="_blank"
+          class="bg-green-600 text-white font-semibold py-3 px-8 rounded-md border border-green-700 shadow-lg register-button"
+          onclick="setTimeout(() => { window.location.href = this.href; }, 300);"
+          >Register Now</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
